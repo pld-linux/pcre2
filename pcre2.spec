@@ -10,12 +10,12 @@ Summary:	Perl-Compatible Regular Expression library
 Summary(pl.UTF-8):	Biblioteka perlowych wyrażeń regularnych
 Summary(pt_BR.UTF-8):	Biblioteca de expressões regulares versão
 Name:		pcre2
-Version:	10.21
-Release:	2
+Version:	10.22
+Release:	1
 License:	BSD (see LICENCE)
 Group:		Libraries
 Source0:	ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/%{name}-%{version}.tar.bz2
-# Source0-md5:	e79460519f916e3fcb204e59714bfd4a
+# Source0-md5:	c0c02517938ee2b0d350d53edf450664
 Patch0:		%{name}-posix-glibc-conflict.patch
 URL:		http://www.pcre.org/
 BuildRequires:	autoconf >= 2.57
@@ -344,7 +344,7 @@ rm -rf $RPM_BUILD_ROOT
 %files posix
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libpcre2-posix.so.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libpcre2-posix.so.0
+%attr(755,root,root) %ghost %{_libdir}/libpcre2-posix.so.1
 
 %files posix-devel
 %defattr(644,root,root,755)

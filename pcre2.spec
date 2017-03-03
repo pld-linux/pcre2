@@ -10,12 +10,12 @@ Summary:	Perl-Compatible Regular Expression library
 Summary(pl.UTF-8):	Biblioteka perlowych wyrażeń regularnych
 Summary(pt_BR.UTF-8):	Biblioteca de expressões regulares versão
 Name:		pcre2
-Version:	10.22
+Version:	10.23
 Release:	1
 License:	BSD (see LICENCE)
 Group:		Libraries
 Source0:	ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/%{name}-%{version}.tar.bz2
-# Source0-md5:	c0c02517938ee2b0d350d53edf450664
+# Source0-md5:	b2cd00ca7e24049040099b0a46bb3649
 Patch0:		%{name}-posix-glibc-conflict.patch
 URL:		http://www.pcre.org/
 BuildRequires:	autoconf >= 2.57

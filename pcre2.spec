@@ -10,12 +10,12 @@ Summary:	Perl-Compatible Regular Expression library
 Summary(pl.UTF-8):	Biblioteka perlowych wyrażeń regularnych
 Summary(pt_BR.UTF-8):	Biblioteca de expressões regulares versão
 Name:		pcre2
-Version:	10.23
+Version:	10.30
 Release:	1
 License:	BSD (see LICENCE)
 Group:		Libraries
 Source0:	ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/%{name}-%{version}.tar.bz2
-# Source0-md5:	b2cd00ca7e24049040099b0a46bb3649
+# Source0-md5:	d3adf4b130eed854a530390f00020a65
 Patch0:		%{name}-posix-glibc-conflict.patch
 URL:		http://www.pcre.org/
 BuildRequires:	autoconf >= 2.57
@@ -310,6 +310,7 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/pcre2build.3*
 %{_mandir}/man3/pcre2callout.3*
 %{_mandir}/man3/pcre2compat.3*
+%{_mandir}/man3/pcre2convert.3*
 %{_mandir}/man3/pcre2demo.3*
 %{_mandir}/man3/pcre2jit.3*
 %{_mandir}/man3/pcre2limits.3*
@@ -320,7 +321,6 @@ rm -rf $RPM_BUILD_ROOT
 %{_mandir}/man3/pcre2posix.3*
 %{_mandir}/man3/pcre2sample.3*
 %{_mandir}/man3/pcre2serialize.3*
-%{_mandir}/man3/pcre2stack.3*
 %{_mandir}/man3/pcre2syntax.3*
 %{_mandir}/man3/pcre2unicode.3*
 
@@ -344,7 +344,7 @@ rm -rf $RPM_BUILD_ROOT
 %files posix
 %defattr(644,root,root,755)
 %attr(755,root,root) %{_libdir}/libpcre2-posix.so.*.*.*
-%attr(755,root,root) %ghost %{_libdir}/libpcre2-posix.so.1
+%attr(755,root,root) %ghost %{_libdir}/libpcre2-posix.so.2
 
 %files posix-devel
 %defattr(644,root,root,755)

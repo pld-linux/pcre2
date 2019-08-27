@@ -14,7 +14,7 @@ Version:	10.33
 Release:	1
 License:	BSD (see LICENCE)
 Group:		Libraries
-Source0:	ftp://ftp.csx.cam.ac.uk/pub/software/programming/pcre/%{name}-%{version}.tar.bz2
+Source0:	https://ftp.pcre.org/pub/pcre/%{name}-%{version}.tar.bz2
 # Source0-md5:	80b355f2dce909a2e2424f5c79eddb44
 URL:		http://www.pcre.org/
 BuildRequires:	autoconf >= 2.57

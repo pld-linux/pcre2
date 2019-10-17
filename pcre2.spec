@@ -11,7 +11,7 @@ Summary(pl.UTF-8):	Biblioteka perlowych wyrażeń regularnych
 Summary(pt_BR.UTF-8):	Biblioteca de expressões regulares versão
 Name:		pcre2
 Version:	10.33
-Release:	1
+Release:	2
 License:	BSD (see LICENCE)
 Group:		Libraries
 Source0:	https://ftp.pcre.org/pub/pcre/%{name}-%{version}.tar.bz2

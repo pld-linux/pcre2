@@ -23,6 +23,7 @@ BuildRequires:	bzip2-devel
 BuildRequires:	libstdc++-devel
 BuildRequires:	libtool >= 2:2
 BuildRequires:	readline-devel
+BuildRequires:	rpm-build >= 4.6
 BuildRequires:	zlib-devel
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -233,6 +234,7 @@ wyrażenia regularnego.
 Summary:	Documentation for PCRE2 in HTML format
 Summary(pl.UTF-8):	Dokumentacja dla PCRE2 w formacie HTML
 Group:		Applications/Text
+BuildArch:	noarch
 
 %description doc-html
 Documentation for PCRE2 in HTML format.

@@ -10,14 +10,14 @@ Summary:	Perl-Compatible Regular Expression library
 Summary(pl.UTF-8):	Biblioteka perlowych wyrażeń regularnych
 Summary(pt_BR.UTF-8):	Biblioteca de expressões regulares versão
 Name:		pcre2
-Version:	10.42
+Version:	10.43
 Release:	1
 License:	BSD (see LICENCE)
 Group:		Libraries
 Source0:	https://github.com/PhilipHazel/pcre2/releases/download/pcre2-%{version}/%{name}-%{version}.tar.bz2
-# Source0-md5:	a8e9ab2935d428a4807461f183034abe
+# Source0-md5:	c8e2043cbc4abb80e76dba323f7c409f
 URL:		http://www.pcre.org/
-BuildRequires:	autoconf >= 2.57
+BuildRequires:	autoconf >= 2.62
 BuildRequires:	automake
 BuildRequires:	bzip2-devel
 BuildRequires:	libstdc++-devel

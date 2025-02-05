@@ -17,7 +17,7 @@ Group:		Libraries
 Source0:	https://github.com/PhilipHazel/pcre2/releases/download/pcre2-%{version}/%{name}-%{version}.tar.bz2
 # Source0-md5:	f71abbe1b5adf25cd9af5d26ef223b66
 URL:		http://www.pcre.org/
-BuildRequires:	autoconf >= 2.62
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	bzip2-devel
 BuildRequires:	libstdc++-devel
